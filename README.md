@@ -17,3 +17,7 @@ For ease, I scaled the MVP back to just practicing **Klingon** vocabulary as I'm
 
 Klingon vocabulary memory game.
 - Firebase database with key-value pairs
+
+### Developing Resources
+![alt text](image.png)
+![alt text](image-1.png)
