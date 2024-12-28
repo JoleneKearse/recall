@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Recall
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+So far, this is a rather scattered project.  I got the idea from [https://reactpractice.dev/articles/7-challenges-to-do-before-a-react-interview/](7 challenges to do before a React interview), *Build a memory game*.  It stated it's a good project to practice state management with, and I thought it would be good to practice:
+- `useReducer`
+- light/dark mode theme toggle
+- dropdowns
+- accessibility & animates
+- database.
 
-Currently, two official plugins are available:
+## Memory Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For ease, I scaled the MVP back to just practicing **Klingon** vocabulary as I'm learning with **Duolingo**.  But I will add other sections to practice a variety of programming languages, like *JavaScript*, *Python*, *C#*, and either *PHP* or *Rust*:
+- where you'll need to match methods
+- or match comparable code snippets.
 
-## Expanding the ESLint configuration
+## MVP
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Klingon vocabulary memory game.
+- Firebase database with key-value pairs
