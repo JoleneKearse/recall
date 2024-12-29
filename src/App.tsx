@@ -1,11 +1,13 @@
+import ModeToggle from "./components/ModeToggle";
+import { ThemeProvider } from "./context/ThemeContext";
+
 function App() {
-
-
-  return (
-    <>
-      <h1 className="text-accent-red">Mov'on</h1>
-    </>
-  )
+	return (
+		<ThemeProvider>
+			<h1 className="">Recall</h1>
+			<ModeToggle />
+		</ThemeProvider>
+	);
 }
 
-export default App
+export default App;

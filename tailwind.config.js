@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class', 
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
     colors: {
@@ -16,15 +17,16 @@ export default {
         950: "#131110",
       },
       accent: {
-        "red-100": "#FF3B3B",
-        "red-200": "#de0808",
+        "red-100": "#FF7B7B",
+        "red-200": "#FF3B3B",
+        "red-300": "#de0808",
         "violet": "#a22b82",
         "purple": "#a22b82",
       },
     },
 		extend: {
       backgroundImage: {
-        "klingon": "url('/public/klingon.png')",
+        "klingon": "url('/klingon.png')",
       }
     },
 	},
