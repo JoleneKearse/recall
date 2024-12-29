@@ -16,12 +16,17 @@ export default {
         950: "#131110",
       },
       accent: {
-        "red": "#de0808",
+        "red-100": "#FF3B3B",
+        "red-200": "#de0808",
         "violet": "#a22b82",
         "purple": "#a22b82",
       },
     },
-		extend: {},
+		extend: {
+      backgroundImage: {
+        "klingon": "url('/public/klingon.png')",
+      }
+    },
 	},
 	plugins: [],
 };
