@@ -32,6 +32,9 @@ export default {
         "unlock": ["Unlock", "serif"],
         "inconsolata": ["Inconsolata", "monospace"],
       },
+      dropShadow: {
+        "links": "0 20px 20px rgba(222, 8, 8, 1)",
+      },
     },
 	},
 	plugins: [],
