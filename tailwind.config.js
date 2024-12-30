@@ -27,7 +27,11 @@ export default {
 		extend: {
       backgroundImage: {
         "klingon": "url('/klingon.png')",
-      }
+      },
+      fontFamily: {
+        "unlock": ["Unlock", "serif"],
+        "inconsolata": ["Inconsolata", "monospace"],
+      },
     },
 	},
 	plugins: [],

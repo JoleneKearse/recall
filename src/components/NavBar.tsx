@@ -10,7 +10,7 @@ const NavBar = () => {
           className="w-12"
 					alt="Logo"
 				/>
-        <h1>Recall: Practice Your Stuff!</h1>
+        <h1 className="text-xl"><span className="font-unlock font-semibold text-3xl">Recall:</span> Practice Your Stuff!</h1>
 			</div>
       <ul className="flex items-center justify-center space-x-6">
         <li>
