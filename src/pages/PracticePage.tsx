@@ -1,7 +1,9 @@
-import ModeToggle from "../components/ModeToggle"
+import Timer from "../components/Timer"
 
 export const PracticePage = () => {
   return (
-    <ModeToggle />
+    <>
+      <Timer />
+    </>
   )
 }
