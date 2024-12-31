@@ -1,5 +1,6 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
+import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
 
 function App() {
@@ -9,20 +10,13 @@ function App() {
 				{/* TODO: Navigate to newGame when authorized */}
 				<Route
 					path="/"
-					element={<HomePage />}
-				/>
-				<Route
-					path="/newGame"
-					element={<Navigate to="/newGame" />}
-				/>
-				<Route
-					path="/practice"
-					element={<Navigate to="/practice" />}
-				/>
-				<Route
-					path="/scores"
-					element={<Navigate to="/scores" />}
-				/>
+					element={<Layout />}
+				>
+					<Route
+						index
+						element={<HomePage />}
+					/>
+				</Route>
 			</Routes>
 		</ThemeProvider>
 	);
