@@ -22,7 +22,7 @@ const NavBar = () => {
 			{/* Hamburger */}
 			<button
 				onClick={toggleMenu}
-				className="md:hidden p-4 order-3 text-brand-900 hover:text-brand-700"
+				className="md:hidden p-4 order-3 text-brand-900 dark:text-brand-300"
 				aria-label="Open menu"
 			>
 				<svg
