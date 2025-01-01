@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
 import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
+// import { PracticePage } from "./pages/PracticePage";
 
 function App() {
 	return (
@@ -16,6 +17,10 @@ function App() {
 						index
 						element={<HomePage />}
 					/>
+					{/* <Route
+						path="/practice"
+						element={<PracticePage />}
+					/> */}
 				</Route>
 			</Routes>
 		</ThemeProvider>

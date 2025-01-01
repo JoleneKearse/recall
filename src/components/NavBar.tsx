@@ -30,7 +30,7 @@ const NavBar = () => {
 					height="168"
 					viewBox="0 0 247 168"
 					fill="none"
-					className="w-12"
+					className="w-10"
 					xmlns="http://www.w3.org/2000/svg"
 				>
 					<path
