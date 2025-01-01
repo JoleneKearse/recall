@@ -19,6 +19,10 @@ function App() {
 					/>
 					{/* <Route
 						path="/practice"
+						element={<NewGamePage />}
+					/> */}
+					{/* <Route
+						path="/practice"
 						element={<PracticePage />}
 					/> */}
 				</Route>
